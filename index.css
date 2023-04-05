@@ -157,6 +157,12 @@ color: #031D44;
     padding: 400px;
 }
 
+#sec3 h1{
+  font-size: 50px;
+  font-style: Scriptina;
+  align-items: center;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: 100px 100px 100px;
