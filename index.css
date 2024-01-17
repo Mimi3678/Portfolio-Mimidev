@@ -56,25 +56,25 @@ background-color: #031D44;
   width: 90%;
 }
 
-#sec1{
+#about{
   background-color: #d4d8f0;
   /*border: 2px solid black;*/
   padding: 310px;
 }
 
-#sec1 h1{
+#about h1{
 font-size: 80px;
 font-style: Scriptina;
 margin-top: -12;
 color: #031D44;
 }
 
-#sec1 p{
+#about p{
 font-size: 25px;
 font-style: Scriptina;
 color: #031D44;
 }
-.sec1pic{
+.aboutpic{
 position: absolute;
 transform: translate(-50%, -50%);
 left: 80%;
@@ -82,7 +82,7 @@ margin-top: -100px;
 }
 
 /*section 2*/
-#sec2{
+#resume{
   background-color: #232946;
   padding: 360px;
   height: auto;
@@ -152,12 +152,13 @@ img.icon {
   border-radius: 8px;
 }
 
-#sec3{
+/*section 3*/
+#work{
   background-color: #d4d8f0;
   padding: 400px;
 }
 
-#sec3 h1{
+#work h1{
 font-size: 50px;
 margin-top: -300px;
 text-align:center;
@@ -187,7 +188,7 @@ align-items: center;
  height: 260px;
 }
 
-#sec4{
+#contact{
   background-color: #232946;
   padding: 300px;
 }

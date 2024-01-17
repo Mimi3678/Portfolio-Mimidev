@@ -11,3 +11,5 @@
  Progress:
  week 7 (14.02-20.02.23) - Finish section 1 & 2
  week 8 (21.02-27.02.23) - Finish section 3 & 4
+
+ 
