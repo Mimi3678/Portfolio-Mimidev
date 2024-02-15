@@ -1,3 +1,4 @@
 {
-  "liveServer.settings.port": 5501
+  "liveServer.settings.CustomBrowser": "safari",
+  "liveServer.settings.port": 0,
 }
