@@ -124,46 +124,40 @@
     </section>
 
     <!--Section 4 contact-->
-    <section id="contact">
-      <h1 class="submit-btn" >GET IN TOUCH</h1>
-      <form>
-      <table>
-        <tr>
-          <td>First Name:</td>
-          <td>
-            <input type="text" name="first-name">
-          </td>
-        </tr>
-        <tr>
-          <td>Last Name:</td>
-          <td>
-            <input type="text" name="last-name">
-          </td>
-        </tr>
-
-        <tr>
-          <td>Message:</td>
-          <td>
-            <input type="text" placeholder="Type your message" ="message">
-          </td>
-        </tr>
-      </table>
-        <input type="submit" value="Submit">                <!--Add a submit button-->
+    <section id="contact-container">
+      <form action="" class="contact-left">
+        <div class="class contact-left-title">
+          <h2>Get in touch</h2>
+          <hr />
+        </div>
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          class="contact-inputs"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          class="contact-inputs"
+          required
+        />
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          class="contact-inputs"
+          required
+        ></textarea>
+        <button type="submit">
+          Submit <img src="assets/arrow_icon.png" alt="" />
+        </button>
       </form>
 
-      <div class="contact-container">
-        <form action="" class="contact-left">
-          <div class="class contact-left-title">
-            <h2>Get in touch</h2>
-            <hr>
-          </div>
-          <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-          <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-          <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-          <button type="submit">Submit <img src="assets/arrow_icon.png" alt=""></button>
-        </form>
+      <div class="class contact-right">
+        <img src="/assets/right_img.png" alt="" />
       </div>
-      
     </section>
 
     <footer id="footer">

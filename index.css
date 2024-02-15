@@ -190,29 +190,7 @@ align-items: center;
 
 #contact{
   background-color: #232946;
-  padding: 300px;
-}
-
-.contact:hover{
-  opacity: 2;
-  color: #232946;
-}
-
-.contact::before{
-transition: 300ms;
-height: 2px;
-content: "";
-position: absolute;
-background-color: #031D44;
-}
-
-.contact-ltr::before {
-  width: 0%;
-  bottom: 10px;
-}
-
-.contact-ltr:hover::before {
-  width: 90%;
+  padding: 270px;
 }
 
 #footer{
