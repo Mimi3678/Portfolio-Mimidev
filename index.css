@@ -188,7 +188,8 @@ align-items: center;
  height: 260px;
 }
 
-#contact{
+/*section 4*/
+#contact-container{
   background-color: #232946;
   padding: 270px;
 }
