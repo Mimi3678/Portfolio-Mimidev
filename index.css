@@ -193,6 +193,28 @@ align-items: center;
   padding: 300px;
 }
 
+.contact:hover{
+  opacity: 2;
+  color: #232946;
+}
+
+.contact::before{
+transition: 300ms;
+height: 2px;
+content: "";
+position: absolute;
+background-color: #031D44;
+}
+
+.contact-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.contact-ltr:hover::before {
+  width: 90%;
+}
+
 #footer{
   background-color: #d4d8f0;
   padding: 20px;
