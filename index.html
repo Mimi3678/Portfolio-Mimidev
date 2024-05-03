@@ -9,17 +9,16 @@
   </head>
   <body>
     <header id="navbar">
-      <img
-        class="logo"
-        src="/Photos/Main/logoMimi.png"
-        alt="logo"
-        width="200px"
-      />
+      <img class="logo" src="/Photos/Main/logoMimi.png" alt="logo" width="200px"/>
       <div class="navlist">
         <li><a class="nav-link nav-link-ltr" href="#sec1">About</a></li>
         <li><a class="nav-link nav-link-ltr" href="#sec2">Resumé</a></li>
         <li><a class="nav-link nav-link-ltr" href="#sec3">Work</a></li>
         <li><a class="nav-link nav-link-ltr" href="#sec4">Contact</a></li>
+      </div>
+      <div class="box">
+        <img class="github-vector" src="Photos/vectors/Github_Vector.svg" />
+        <img class="linkedin-vector" src="Photos/vectors/Linkedin.svg" />
       </div>
     </header>
 
@@ -27,140 +26,112 @@
       <h1>Hello I´m Miriam</h1>
       <p>A computer science student, based in Norway.</p>
       <div class="aboutpic">
-        <img src="/Photos/Main/MimiPic.png" alt="MimiPhoto" />
+        <img src="Photos/Main/mim.png" alt="MimiPhoto" />
       </div>
     </section>
 
     <section id="resume">
-      <!--<p class="tagline">Résumé</p>-->
+      <p class="tagline">Résumé</p>
       <!-- Résumé : Education -->
-      <p class="section-tagline">Education</p>
+      <!--<p class="section-tagline">Education</p>-->
       <!-- Résumé : Education : USC -->
       <p>
-        <a target="_blank" href="https://www.oslomet.no/"
-          ><img class="icon" src="Photos/Extra/oslometLogo.png" /></a
-        ><b>Oslo Metropolitant University</b>
+        <b>Oslo Metropolitant University</b>
         <span class="right"><i>2021 - 2024</i></span>
-        <br /><i>Applied Computer Science, B.S.</i><br />
-        <b><br />Relevant Coursework:</b><br />
+        <br /><i>Bachelor in Applied Computer Science.</i><br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae nisi vel mauris tempor ultricies.
+        Nullam at nisi eu libero fringilla ultrices. Sed ut dolor nec justo pharetra tincidunt.
+        Integer euismod sodales ipsum, at fermentum urna vestibulum ac. Duis euismod, arcu at eleifend varius,
+        massa metus sodales libero, sit amet bibendum nulla magna at justo.
       </p>
-      <ul style="list-style: circle">
-        <li>Object-Oriented Programming</li>
-        <li>Interaction Design & Prototyping</li>
-        <li>Technology & Society for Programmers</li>
-        <li>Inclusive Web Design</li>
-        <li>Visualization</li>
-        <li>Databases</li>
-        <li>Web Programming</li>
-        <li>Algorithms & Datastructures</li>
-        <li>Software Engineering</li>
-        <li>Software Testing</li>
-        <li>Operating System</li>
-        <li>Internet of Things</li>
-      </ul>
-      <span class="skill">Java</span><span class="skill">JavaScript</span
-      ><span class="skill">HTML</span><span class="skill">CSS</span
-      ><span class="skill">Git</span><span class="skill">Linux</span>
-      <p></p>
       <br />
       <!-- Résumé : Education : Sorbonne -->
       <p>
-        <a target="_blank" href="https://www.qut.edu.au/"
-          ><img class="icon" src="Photos/Extra/qut-logo-og-1200.jpeg" /></a
-        ><b>Queensland University of Technology</b>
+        <b>Queensland University of Technology</b>
         <span class="right"><i>Spring 2023</i></span
         ><br />
-        <b>Study Abroad</b>
-        <span class="right"><i>Australia, AU</i></span
+        <span class="right"><i>Study Abroad - Australia, AU</i></span
         ><br /><br />
         Spent a semester studying at QUT with these main courseworks: Data and
         Web Analytics and Network Security. Besides these two, I also had two
         choice subjects, Managing Social Media and Building IT Systems.<br /><br />
-        <span class="skill">Python</span
-        ><span class="skill">Jupyter Notebook</span
-        ><span class="skill">Security tools</span>
       </p>
       <!-- Résumé : Education : Freestyle -->
     </section>
 
+    <h1 class="tagline_work">Side Projects</h1>
     <section id="work">
-      <h1>Side Projects</h1>
-      <div class="grid-container">
-        <div class="grid-item">
-          <a href="https://a-f-r-o.netlify.app/"
-            ><img src="Photos/PersonalWork/afroWeb.jpg" width="400px" />Afro</a
-          >
-        </div>
-        <div class="grid-item">
-          <a href="https://gettoknowhistory.netlify.app/"
-            ><img src="Photos/PersonalWork/gettoknow.jpg" width="400px" />Get To
-            Know</a
-          >
-        </div>
-        <div class="grid-item">
-          <a href="https://groupexaminclusivewebdesign.netlify.app/"
-            ><img src="Photos/PersonalWork/SchoolExamG.jpg" width="400px" />Life
-            as first year students</a
-          >
-        </div>
-        <div class="grid-item">
-          <a href="https://animatescroll.netlify.app/"
-            ><img
-              src="Photos/PersonalWork/animateSc.jpg"
-              width="400px"
-            />Animate on Scroll</a
-          >
-        </div>
-        <div class="grid-item">
-          <a href="https://iamsticky.netlify.app/"
-            ><img
-              src="Photos/PersonalWork/stickyNotes.jpg"
-              width="400px"
-            />Sticky Notes</a
-          >
-        </div>
-        <div class="grid-item">My Exchange semester - Brisbane, Australia</div>
-      </div>
+        <section class="cards">
+          <div class="container">
+            <img id="adamaImgAf" src="Photos/PersonalWork/gettoknow.jpg" alt="photo of adama Karbo">
+            <p class="card_readmore">Get To Know -  <a class="adaLink" href="https://gettoknowhistory.netlify.app/">Get To Know</a></p>
+          </div>
+        </section>
+
+        <section class="cards">
+          <div class="container">
+            <img id="adamaImgAf" src="Photos/PersonalWork/gettoknow.jpg" alt="photo of adama Karbo">
+            <p class="card_readmore">Get To Know -  <a class="adaLink" href="https://gettoknowhistory.netlify.app/">Get To Know</a></p>
+          </div>
+        </section>
+
+        <section class="cards">
+          <div class="container">
+            <img id="nelsonImgAf" src="Photos/PersonalWork/afroWeb.jpg" alt="photo of adama Karbo">
+            <p class="card_readmore">Get To Know -  <a class="adaLink" href="https://a-f-r-o.netlify.app/l">Afro</a></p>
+          </div>
+        </section>
+
+        <section class="cards">
+          <div class="container">
+            <img id="johnImgAf" src="Photos/PersonalWork/SchoolExamG.jpg" alt="photo of john smythe">
+            <p class="card_readmore">Get To Know -  <a class="adaLink" href="https://groupexaminclusivewebdesign.netlify.app/">Life
+              as first year students</a></p>
+          </div>
+        </section>
+
+        <section class="cards">
+          <div class="container">
+            <img id="johnImgAf" src="Photos/PersonalWork/stickyNotes.jpg" alt="photo of john smythe">
+            <p class="card_readmore">Get To Know -  <a class="adaLink" href="https://iamsticky.netlify.app/">Sticky Notes</a></p>
+          </div>
+        </section>
+
+        <section class="cards">
+          <div class="container">
+            <img id="johnImgAf" src="Photos/PersonalWork/animateSc.jpg" alt="photo of john smythe">
+            <p class="card_readmore">Get To Know -  <a class="adaLink" href="https://animatescroll.netlify.app/">Animate on Scroll</a></p>
+          </div>
+        </section>
     </section>
+
 
     <!--Section 4 contact-->
     <section id="contact-container">
-      <form action="" class="contact-left">
-        <div class="class contact-left-title">
-          <h2>Get in touch</h2>
-          <hr />
-        </div>
-        <input
-          type="text"
-          name="name"
-          placeholder="Your Name"
-          class="contact-inputs"
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Your Email"
-          class="contact-inputs"
-          required
-        />
-        <textarea
-          name="message"
-          placeholder="Your Message"
-          class="contact-inputs"
-          required
-        ></textarea>
-        <button type="submit">
-          Submit <img src="assets/arrow_icon.png" alt="" />
-        </button>
-      </form>
-
-      <div class="class contact-right">
-        <img src="/assets/right_img.png" alt="" />
-      </div>
+      <h3>Contact us</h3>
+      <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+               <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+          <div class="fcf-form-group">
+              <label for="Email" class="fcf-label">Your email address</label>
+              <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+              </div>
+          <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+              <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+          </div>
+          <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+          </div>
     </section>
 
     <footer id="footer">
+        <img class="logo-footer" src="/Photos/Main/logoMimi.png" alt="logo" width="200px"/>
       <p>Designed & developed by Miriam Sarpong&copy;</p>
     </footer>
   </body>
