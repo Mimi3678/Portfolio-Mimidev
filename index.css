@@ -76,7 +76,7 @@ background-color: #031D44;
 #about h1{
 font-size: 80px;
 font-style: Tarif;
-margin-top: -12;
+margin-top: 12px;
 color: #031D44;
   margin-left: -175px;
 }
@@ -247,6 +247,21 @@ input[type=email] {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+}
+
+.contact_h2 {
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: -170px;
+  text-align: center;
+}
+
+#fcf-form-id {
+  margin-bottom: -170px;
+}
+
+.fcf-label {
+  font-size: 20px;
 }
 
 #fcf-button {
