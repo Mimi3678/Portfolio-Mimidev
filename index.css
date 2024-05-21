@@ -313,6 +313,9 @@ color: #031D44;
   border: 3px solid black;
 }
 
+.exchangeLink {
+  font-size: 12px;
+}
 
 /*section 4*/
 #contact-container{
