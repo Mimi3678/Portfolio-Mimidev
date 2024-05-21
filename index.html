@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MimiDev</title>
     <link rel="stylesheet" href="index.css" />
+      <style>
+          #pdfObject {
+              display: none;
+          }
+      </style>
   </head>
   <body>
     <header id="navbar">
@@ -52,10 +57,20 @@
           Operativsystemer (Operating Systems)
           Datasikkerhet (Data Security)
       </p>
-        <h1>View PDF using Object</h1>
-        <object data="documents/Miriam%20Sarpong%20-%20cvEN.docx%20(1).pdf" type="application/pdf" width="600" height="500">
-            <p>Your browser does not support PDFs. <a href="path/to/yourfile.pdf">Download the PDF</a>.</p>
+        <h3 id="toggleButton" style="cursor: pointer;">View my CV</h3>
+        <object id="pdfObject" data="documents/Miriam%20Sarpong%20-%20cvEN.docx%20(1).pdf" type="application/pdf" width="600" height="500">
+            <p>Your browser does not support PDFs. <a href="documents/Miriam%20Sarpong%20-%20cvEN.docx%20(1).pdf">Download the PDF</a>.</p>
         </object>
+        <script>
+            document.getElementById('toggleButton').addEventListener('click', function() {
+                var pdfObject = document.getElementById('pdfObject');
+                if (pdfObject.style.display === 'none') {
+                    pdfObject.style.display = 'block';
+                } else {
+                    pdfObject.style.display = 'none';
+                }
+            });
+        </script>
       <br />
       <!-- Résumé : Education : Sorbonne -->
       <p>
