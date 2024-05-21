@@ -37,8 +37,6 @@
   .logo {
     margin-bottom: 0;
   }
-}
-
 
 
   .navlist a {
@@ -382,86 +380,3 @@ input[type=email] {
   display: flex;
   padding-right: 30px;
 }
-
-* Responsive styles */
-@media (max-width: 1200px) {
-  #navbar {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .navlist {
-    flex-direction: column;
-    gap: 1em;
-  }
-
-  .box {
-    flex-direction: column;
-    margin: 0;
-  }
-
-  #about h1 {
-    font-size: 2em;
-  }
-
-  #about p {
-    font-size: 1em;
-  }
-
-  .tagline, .tagline_work {
-    font-size: 1.5em;
-  }
-
-  #resume {
-    padding: 30px;
-  }
-
-  #work {
-    padding: 30px;
-    grid-template-columns: 1fr;
-  }
-
-  #contact-container {
-    padding: 30px;
-  }
-
-  .contact_h2 {
-    font-size: 2em;
-  }
-
-  .fcf-label {
-    font-size: 1em;
-  }
-}
-
-
-  #navbar {
-    padding: 10px;
-  }
-
-  .navlist a {
-    font-size: 1em;
-    padding: 10px;
-  }
-
-  .tagline, .tagline_work {
-    font-size: 1.2em;
-  }
-
-  .cards {
-    width: 100%;
-    margin: 10px 0;
-  }
-
-  #about {
-    padding: 20px;
-  }
-
-  #resume, #work, #contact-container {
-    padding: 20px;
-  }
-
-  .contact_h2 {
-    font-size: 1.5em;
-  }
-
