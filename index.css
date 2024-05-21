@@ -106,11 +106,18 @@
   padding: 15px;
 }
 
+#toggleButton{
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
 .nav-link {
   display: inline-block;
   position: relative;
   opacity: 0.75;
 }
+
 
 .nav-link:hover{
   opacity: 2;
